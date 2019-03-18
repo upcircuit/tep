@@ -94,7 +94,6 @@
 
 html, body{
 	background: #F5FFF5;
-	width: 100%;
 	margin: 0 auto;
 	height: 100%;
 	font-family: 'RooneySans', 'Trebuchet MS', 'Arial', sans-serif;
@@ -112,20 +111,10 @@ a:hover{
 }
 
 .main-container {
-	width: 90%;
+	width: 100%;
 	min-height: 100%;
 	margin: 0 auto;
-}
-
-.best-container-ever{
-	background: #F5FFF5;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	position: absolute;
-    white-space: nowrap;
-    overflow: hidden;
+	overflow: hidden;
 }
 
 .logo-container{
@@ -153,27 +142,27 @@ a:hover{
 #logotype{
 	background: url('../images/tep_logotype.png');
 	background-size: 100% 100%;
-	z-index: 50;
+	z-index: 14;
 }
 
 #ring1{
 	background: url('../images/tep_logo_ring1.png');
 	background-size: 100% 100%;
-	z-index: 40;
+	z-index: 13;
 	transition: 1.6s ease;
 }
 
 #ring2{
 	background: url('../images/tep_logo_ring2.png');
 	background-size: 100% 100%;
-	z-index: 30;
+	z-index: 12;
 	transition: 1.4s ease;
 }
 
 #ring3{
 	background: url('../images/tep_logo_ring3.png');
 	background-size: 100% 100%;
-	z-index: 20;
+	z-index: 11;
 	transition: 1.2s ease;
 }
 
@@ -217,9 +206,9 @@ a:hover{
 }
 
 .content-container{
-	width: 100%;
+	width: 90%;
 	min-height: 690px;
-	float: left;
+	margin: auto;
 	background: #f5fff5; /* Old browsers */
 	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
 	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y1ZmZmNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
