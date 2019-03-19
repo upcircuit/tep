@@ -229,7 +229,7 @@ a:hover{
 	padding-bottom: 8em;
 }
 
-#section-1{
+#slogan{
 	line-height: 1em;
 	padding-top: 0;
 }
@@ -247,7 +247,7 @@ h1{
 	color: #1D291D;
 }
 
-#section-1 h1{
+#slogan h1{
 	font-size: 6.5em;
 	font-weight: 500;
 	letter-spacing: -5px;
@@ -257,7 +257,7 @@ strong{
 	font-weight: 800;
 }
 
-#section-2{
+#history{
 	padding-top: 9em;
 	padding-bottom: 8em;
 }
@@ -445,7 +445,7 @@ h4{
 	display:none;
 }
 
-#section-4{
+#contacts{
 	margin-top: -7em;
 }
 
