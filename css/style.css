@@ -118,6 +118,7 @@ a:hover{
 }
 
 .logo-container{
+	position: relative;
 	width: 100%;
 	height: 100vh;
 }
@@ -205,6 +206,19 @@ a:hover{
 	position: fixed;
 }
 
+.arrow {
+	display: block;
+	position: relative;
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	text-align: center;
+}
+
+.logo-container .arrow {
+	top: 40%;
+}
+
 .content-container{
 	width: 90%;
 	min-height: 690px;
@@ -232,6 +246,13 @@ a:hover{
 #slogan{
 	line-height: 1em;
 	padding-top: 0;
+	height: 100vh;
+}
+
+#slogan .slogan-headers {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 .writeup{
@@ -249,8 +270,13 @@ h1{
 
 #slogan h1{
 	font-size: 6.5em;
+	font-size: 8vw;
 	font-weight: 500;
 	letter-spacing: -5px;
+}
+
+#slogan .arrow {
+	top: 50%;
 }
 
 strong{
