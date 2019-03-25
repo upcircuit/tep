@@ -482,7 +482,9 @@ h4{
 #contacts{
 	margin-top: -7em;
 }
-
+#contacts h5 {
+	margin-top: 0.5rem;
+}
 .sec4-container{
 	display: block;
 	width: 100%;
@@ -493,11 +495,6 @@ h4{
 	display: inline-block;
 	padding: 1em;	
 	float: left;
-}
-
-.contact{
-	margin: 0 auto;
-	width: 100%;
 }
 
 .team{
@@ -572,4 +569,43 @@ h5{
 /* Avoids overlap with history container */
 .spacer {
 	height: 550px;
+}
+
+/* Contacts */
+#contact-1 {
+	width: 50%;
+}
+#contact-2 {
+	width: 50%;
+}
+.contact-row {
+	margin: 0;
+}
+.contact-row h5{
+	margin: 0.5rem;
+}
+.section h5 {
+	margin: 0.5rem;
+}
+.contact {
+}
+.contact .number{
+	display: inline-block;
+	padding-left: 0.5em;
+	vertical-align: middle;
+	height: 2.5rem;
+}
+#contact-container {
+	display: flex;
+	flex-direction: row;
+}
+.email-icon {
+	font-size: 2rem;
+}
+#email-icon1 {
+	padding-top: 1rem;
+}
+.footer p {
+	margin: 2em;
+	font-size: 0.75em;
 }
