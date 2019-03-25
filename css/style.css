@@ -213,6 +213,13 @@ a:hover{
 	height: 100px;
 	margin: auto;
 	text-align: center;
+	font-size: 1.6rem;
+	color: #386736;
+}
+
+.arrow:hover {
+	text-decoration: none;
+	color: #7DAB62;
 }
 
 .logo-container .arrow {
