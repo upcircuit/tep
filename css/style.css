@@ -95,7 +95,7 @@
 html, body{
 	background: #F5FFF5;
 	margin: 0 auto;
-	min-width: 480px;
+	min-width: 400px;
 	height: 100%;
 	font-family: 'RooneySans', 'Trebuchet MS', 'Arial', sans-serif;
 	font-weight: normal;
@@ -559,7 +559,6 @@ h5{
 	opacity: 1;
 	max-width: 400px;
 
-	text-align: center;
 	transition: all 250ms ease-in-out;
 }
 .carousel-container:nth-child(10) {

@@ -10,28 +10,26 @@ $(document).ready(function(){
 		autoplaySpeed: 2500,
 		responsive: [
 			{
-				breakpoint: 1024,
+				breakpoint: 1280,
 				settings: {
 					dots: false,
-					centerMode: false,
+					centerPadding: 0,
 					slidesToShow: 3,
 					slidesToScroll: 1,
 				}
 			},
 			{
-				breakpoint: 600,
+				breakpoint: 1024,
 				settings: {
 					dots: false,
-					centerMode: false,
 					slidesToShow: 2,
 					slidesToScroll: 1,
 				}
 			},
 			{
-				breakpoint: 480,
+				breakpoint: 800,
 				settings: {
 					dots: false,
-					centerMode: false,
 					slidesToShow: 1,
 					slidesToScroll: 1,
 				}
