@@ -95,6 +95,7 @@
 html, body{
 	background: #F5FFF5;
 	margin: 0 auto;
+	min-width: 480px;
 	height: 100%;
 	font-family: 'RooneySans', 'Trebuchet MS', 'Arial', sans-serif;
 	font-weight: normal;
@@ -356,7 +357,7 @@ p{
 
 h3{
 	font-size: 3em;	
-	color:;
+	/* color:; */
 }
 
 .startstepstride{
@@ -544,4 +545,32 @@ h5{
 	line-height: 1em;
 	font-size: .8em;
 	font-family: 'ProximaNovaSoft';
+}
+
+/* Carousel stuff */
+.carousel {
+	position: absolute;
+	left: 0px;
+	width: 100%;
+}
+.carousel-slot {
+	border: #669966 5px solid;
+	margin: 5px;
+	opacity: 1;
+	max-width: 400px;
+
+	text-align: center;
+	transition: all 250ms ease-in-out;
+}
+.carousel-container:nth-child(10) {
+	padding-left: 10px;
+}
+.carousel-image {
+	height: 100%;
+	width: 100%;
+	transition: all 250ms ease-in-out;
+}
+/* Avoids overlap with history container */
+.spacer {
+	height: 550px;
 }
