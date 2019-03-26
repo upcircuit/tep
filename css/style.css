@@ -95,6 +95,7 @@
 html, body{
 	background: #F5FFF5;
 	margin: 0 auto;
+	min-width: 400px;
 	height: 100%;
 	font-family: 'RooneySans', 'Trebuchet MS', 'Arial', sans-serif;
 	font-weight: normal;
@@ -356,7 +357,7 @@ p{
 
 h3{
 	font-size: 3em;	
-	color:;
+	/* color:; */
 }
 
 .startstepstride{
@@ -481,7 +482,9 @@ h4{
 #contacts{
 	margin-top: -7em;
 }
-
+#contacts h5 {
+	margin-top: 0.5rem;
+}
 .sec4-container{
 	display: block;
 	width: 100%;
@@ -492,11 +495,6 @@ h4{
 	display: inline-block;
 	padding: 1em;	
 	float: left;
-}
-
-.contact{
-	margin: 0 auto;
-	width: 100%;
 }
 
 .team{
@@ -544,4 +542,70 @@ h5{
 	line-height: 1em;
 	font-size: .8em;
 	font-family: 'ProximaNovaSoft';
+}
+
+/* Carousel stuff */
+.carousel {
+	position: absolute;
+	left: 0px;
+	width: 100%;
+}
+.carousel-slot {
+	border: #669966 5px solid;
+	margin: 5px;
+	opacity: 1;
+	max-width: 400px;
+
+	transition: all 250ms ease-in-out;
+}
+.carousel-container:nth-child(10) {
+	padding-left: 10px;
+}
+.carousel-image {
+	height: 100%;
+	width: 100%;
+	transition: all 250ms ease-in-out;
+}
+/* Avoids overlap with history container */
+.spacer {
+	height: 550px;
+}
+
+/* Contacts */
+#contact-1 {
+	width: 50%;
+}
+#contact-2 {
+	width: 50%;
+}
+.contact-row {
+	margin: 0;
+}
+.contact-row h5{
+	margin: 0.5rem;
+}
+.section h5 {
+	margin: 0.5rem;
+}
+.contact {
+}
+.contact .number{
+	display: inline-block;
+	padding-left: 0.5em;
+	vertical-align: middle;
+	height: 2.5rem;
+}
+#contact-container {
+	display: flex;
+	flex-direction: row;
+}
+.email-icon {
+	font-size: 2rem;
+}
+#email-icon1 {
+	padding-top: 1rem;
+}
+.footer p {
+	margin: 2em;
+	font-size: 0.75em;
 }
