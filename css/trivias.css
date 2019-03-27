@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 .trivia-layout{
 	padding:0px;
 	margin:0px;
@@ -59,11 +63,13 @@
 	padding-right: 30px;
 	padding-bottom: 50px;
 	padding-left: 80px;
+	flex: 1;
 }
 .flex-container  .trivia {
 	padding-top:50px;
 	width:60%;
 	margin:5;
+	flex: 1;
 }
 
 
@@ -120,4 +126,7 @@
 } 
 .cap-bot:hover .figcaption {
 	bottom: 0; 
+}
+
+@media screen and (max-width: 768px) {
 }

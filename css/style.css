@@ -482,6 +482,11 @@ h4{
 #contacts{
 	margin-top: -7em;
 }
+
+#contacts h1 {
+	font-size: 5em;
+}
+
 #contacts h5 {
 	margin-top: 0.5rem;
 }
@@ -621,5 +626,9 @@ h5{
 
 	#slogan .arrow {
 		top: 40%;
+	}
+
+	#contacts h1 {
+		font-size: 4em;
 	}
 }
