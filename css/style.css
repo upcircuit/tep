@@ -251,7 +251,6 @@ a:hover{
 }
 
 #slogan{
-	line-height: 1em;
 	padding-top: 0;
 	height: 100vh;
 }
@@ -281,6 +280,7 @@ h1{
 	font-size: 8vw;
 	font-weight: 500;
 	letter-spacing: -5px;
+	margin: 0;
 }
 
 #slogan .arrow {
@@ -608,4 +608,18 @@ h5{
 .footer p {
 	margin: 2em;
 	font-size: 0.75em;
+}
+
+@media screen and (max-width: 768px) {
+	.section {
+		width: 100%;
+	}
+
+	#slogan h1 {
+		font-size: 4em;
+	}
+
+	#slogan .arrow {
+		top: 40%;
+	}
 }
