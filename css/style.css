@@ -267,6 +267,7 @@ a:hover{
 	width: 85%;
 	margin: 0 auto;
 	line-height: 1.1em;
+	margin-bottom: 5em;
 }
 
 h1{
@@ -291,7 +292,7 @@ strong{
 }
 
 #history{
-	padding-top: 9em;
+	padding-top: 5em;
 	padding-bottom: 8em;
 }
 
