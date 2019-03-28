@@ -146,10 +146,6 @@
 		width:100%;
 	}
 
-	.carousel-slide img {
-		max-width: 100%;
-	}
-
 	.brain_logo {
 		display:none;
 	}
@@ -162,6 +158,8 @@
 	}
 
 	.responsive{
+		max-width: 100%;
+		height: auto;
 	}
 
 	.h1-responsive-2{
