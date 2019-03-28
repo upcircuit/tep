@@ -1,5 +1,6 @@
 const carouselSlide = document.querySelector('.carousel-slide');
 const carouselImages = document.querySelectorAll('.carousel-slide img');
+let image = document.querySelector("#lastClone");
 
 //Buttons
 const prevBtn = document.querySelector('#prevBtn');
@@ -7,7 +8,8 @@ const nextBtn = document.querySelector('#nextBtn');
 
 //Counter
 let counter = 1;
-const size = carouselImages[0].clientWidth;
+let size = carouselImages[0].clientWidth;
+size = image.clientWidth;
 
 
 carouselSlide.style.transform = 'translateX(' + (-size*counter) + 'px)';
@@ -18,6 +20,7 @@ nextBtn.addEventListener('click',()=>{
 	carouselSlide.style.transition = "transform 0.3s ease-in-out";
 	counter++;
 	carouselSlide.style.transform = 'translateX(' + (-size*counter) + 'px)';
+	console.log(size);
 	
 });
 
@@ -26,7 +29,8 @@ prevBtn.addEventListener('click',()=>{
 	carouselSlide.style.transition = "transform 0.3s ease-in-out";
 	counter--;
 	carouselSlide.style.transform = 'translateX(' + (-size*counter) + 'px)';
-	
+	console.log("Hello");
+
 });
 
 carouselSlide.addEventListener('transitionend',()=>{

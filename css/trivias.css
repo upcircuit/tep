@@ -13,6 +13,7 @@
 	width:600px;
 	margin:auto;
 	border:5px solid #1D291D;
+	border: none;
 	overflow:hidden;
 	position:relative;
 }
@@ -131,41 +132,43 @@
 }
 
 @media screen and (max-width: 768px) {
+
+	* {
+		flex: none;
+	}
+
 	.carousel-container{
-		right: ;
 		bottom:25px;
-		width: 89%; 
-		height: 95%;
+		width: 100%; 
 	}
+
 	.carousel-slide{
-		width:600px	;
-		height:100%;
+		width:100%;
 	}
+
+	.carousel-slide img {
+		max-width: 100%;
+	}
+
 	.brain_logo {
-		/*width:0;
-		margin:0;
-		padding-top: 0;
-		padding-right: 0;
-		padding-bottom: 0;
-		padding-left:0;
-		flex: 1;*/
 		display:none;
-		
 	}
+
 	.flex-container  .trivia {
-		padding-top:0px;
-		width:100%;	
-		margin:30px;
+		padding-top: 0px;
+		width: 100%;	
+		margin: 30px;
 		flex: 2;
 	}
+
 	.responsive{
-		width:550px;
-		height:auto;
 	}
+
 	.h1-responsive-2{
-		display:block;
+		display: block;
 	}
+
 	.h1-responsive-1{
-		display:none;
+		display: none;
 	}
 }
