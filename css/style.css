@@ -250,6 +250,10 @@ a:hover{
 	padding-top: 2em;
 }
 
+.section h2 {
+	line-height: 0.9em;
+}
+
 #slogan{
 	padding-top: 0;
 	height: 100vh;
@@ -480,7 +484,6 @@ h4{
 }
 
 #contacts{
-	margin-top: -7em;
 }
 
 #contacts h1 {
@@ -621,7 +624,8 @@ h5{
 	}
 
 	#slogan h1 {
-		font-size: 4em;
+		font-size: 18vw;
+		line-height: 1em;
 	}
 
 	#slogan .arrow {
@@ -629,6 +633,6 @@ h5{
 	}
 
 	#contacts h1 {
-		font-size: 3em;
+		font-size: 12vw;
 	}
 }

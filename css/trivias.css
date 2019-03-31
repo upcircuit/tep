@@ -8,6 +8,7 @@
 	padding:0px;
 	margin:0px;
 	box-sizing:border-box;
+	text-align: center;
 }
 .carousel-container{
 	width:600px;
@@ -44,37 +45,34 @@
 	opacity:0.6;
 	cursor:pointer;
 }
+
 .prevBtn, .nextBtn{
-	background:;
-	
 }
+
 .prevBtn:hover,.nextBtn:hover{
 	background:#1D291D;
 }
+
 .flex-container {
 	
 	display: flex;
 	height: auto;
 	flex-wrap: wrap;
-	align-content: space-between;
-	padding:0;
+	align-items: center;
+	padding: 10px;
 }
+
 .flex-container  .brain_logo {
-	width:30%;
-	margin:5;
-	padding-top: 10px;
-	padding-right: 30px;
-	padding-bottom: 50px;
-	padding-left: 80px;
-	flex: 1;
-}
-.flex-container  .trivia {
-	padding-top:50px;
-	width:60%;
-	margin:5;
 	flex: 1;
 }
 
+.brain_logo img {
+	width: 100%;
+}
+
+.flex-container  .trivia {
+	flex: 2;
+}
 
 .figure { 
 	display: block;
@@ -138,7 +136,6 @@
 	}
 
 	.carousel-container{
-		bottom:25px;
 		width: 100%; 
 	}
 
@@ -150,11 +147,17 @@
 		display:none;
 	}
 
+	.flex-container {
+		margin-top: 30px;
+	}
+
 	.flex-container  .trivia {
-		padding-top: 0px;
 		width: 100%;	
-		margin: 30px;
-		flex: 2;
+	}
+
+	.image-container {
+		width: 100%;
+		height: auto;
 	}
 
 	.responsive{

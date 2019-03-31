@@ -1,5 +1,5 @@
 const carouselSlide = document.querySelector('.carousel-slide');
-const carouselImages = document.querySelectorAll('.carousel-slide img');
+const carouselImages = document.querySelectorAll('.carousel-slide .image-container');
 let image = document.querySelector("#lastClone");
 
 //Buttons
